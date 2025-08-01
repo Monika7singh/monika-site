@@ -1,16 +1,16 @@
 ---
 
-const { border, maintext} = Astro.props
+const {maintext} = Astro.props
 
 ---
 
 <button class="stamp">
-  {border}
   {maintext}
 </button>
 
 <style>
   .stamp{
     background-color: aquamarine;
+    border: 2px solid black;
   }
 </style>

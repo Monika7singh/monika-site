@@ -3,15 +3,14 @@
 import MainLayout from "../layouts/MainLayout.astro";
 import Button from "../components/Button.astro";
 import ImageCard from "../components/ImageCard.astro";
+
 import StampButton from "../components/StampButton.astro";
 ---
 
 <MainLayout title="About">
 	<h1>About This Project</h1>
 
-	<stampcard
-  {border ="5px"}
-  {maintext ="stamp"}/>
+	<StampButton maintext ="stamp"/>
 
 
 	<ImageCard link="https://png.pngtree.com/thumb_back/fh260/background/20240522/pngtree-abstract-cloudy-background-beautiful-natural-streaks-of-sky-and-clouds-red-image_15684333.jpg"
